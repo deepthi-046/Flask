@@ -6,7 +6,7 @@
     <form action="{{url_for('create')}}" method="POST" novalidate>
     {{form.hidden_tag()}}
     <fieldset>
-        <legend>Add Customerrrrrrrr</legend>
+        <legend>Add Customers</legend>
         <p>
         {{form.cid.label}}{{form.cid(size=32)}}
         {% for error in form.cid.errors %}
